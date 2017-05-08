@@ -77,8 +77,8 @@ WSGI_APPLICATION = 'mysite1.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django_mongodb_engine',
-        'NAME': 'mydb',
+        'ENGINE': '',
+        'NAME': '',
     
     }
 }
