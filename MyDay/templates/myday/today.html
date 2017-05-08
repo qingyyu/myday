@@ -1,0 +1,12 @@
+<ul>
+    <h1>My to-do for today</h1>
+    {% for todo in todo_list }
+     <li>{{todo.task}}<span>project:{{todo.project}}
+</ul>
+
+<ul>
+    <h1>notes of the day</h1>
+    {% for notes in note_list }
+     <li>{{note.content}}<span>tag:{{note.tag}}
+</ul>
+
